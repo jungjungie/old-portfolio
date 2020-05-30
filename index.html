@@ -7,7 +7,7 @@
 
     <title>Esther Min</title>
 
-    <!-- Link to Boostrap -->
+    <!-- Link to Boostrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/style.css" type="text/css" /> -->
 </head>
@@ -17,18 +17,25 @@
     <header class="">
 
         <!-- Start Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-info shadow-sm">
             <div class="container">
-                <h1 class="navbar-brand mb-0">Esther Min</h1>
 
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a> |
-                    <a class="nav-item nav-link" href="#">Portfolio</a> |
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="navbar-brand mb-0">Esther Min</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseditemslist" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>     
+                </button>    
+                    
+                <div class="collapse navbar-collapse justify-content-end" id="collapseditemslist">
+                    
+                    <div class="navbar-nav d-flex align-items-center">
+                        <a class="nav-item nav-link active px-4" href="#">About</a> |
+                        <a class="nav-item nav-link px-4" href="#">Portfolio</a> |
+                        <a class="nav-item nav-link pl-4" href="#">Contact</a>
                     
                     </div>
                 </div>
+                
             </div>
         </nav>
         <!-- End Navbar -->
@@ -36,13 +43,14 @@
     <!-- End Header -->
 
     <!-- Start Main Content -->
-    <main class="container">
-        <section class="">
-            <figure>
+    <main class="container my-60">
+        <section class="jumbotron my-60 shadow-sm">
+            <h1>About Me</h1>
+            <figure class="">
                 <img src="https://via.placeholder.com/200" alt="profile photo" />
             </figure>
 
-            <section>
+            <section class="">
                 <p>Hi there! I am Esther Min, an aspiring web developer.</p>
             
                 <p>I am currently enrolled in the UPenn LPS Coding Bootcamp and expecting to graduate in August 2020. The below entails the languages and skills I've learned so far:</p>
@@ -56,9 +64,8 @@
                 <p>Check out my portfolio to see what I've applied so far, and stay tuned for more neat projects that I'll be showcasing in the coming weeks!</p>
             </section>
         </section>
-   
-        
     </main>
+
     <!-- End Main Content -->
 
 
@@ -74,5 +81,10 @@
         </ul>
     </footer>
     <!-- End Footer -->
+
+    <!-- Link to Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
