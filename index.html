@@ -13,12 +13,14 @@
     <!-- Link to Fontawesome icons -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Link to my CSS -->
     <!-- <link rel="stylesheet" href="css/style.css" type="text/css" /> -->
 </head>
 
 <body class="bg-light m-0">
+
     <!-- Start Header -->
-    <header class="">
+    <header>
 
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-info shadow-sm">
@@ -46,9 +48,9 @@
     <!-- End Header -->
 
     <!-- Start About Content -->
-    <div class="p-sm-5">
+    <main class="p-sm-5">
 
-        <main class="container-sm mt-5 p-3 bg-white">
+        <div class="container-sm mt-5 p-3 bg-white">
 
             <section class="row my-4">
                 <section class="col">
@@ -58,13 +60,15 @@
             </section>
 
             <div class="row">
-                <div class="col d-sm-flex">
+                <div class="col d-sm-flex ">
+                    <!-- <div class="text-wrap"> -->
+
                     <figure class="mr-sm-4">
                         <img src="images/profilesnap.png" class="image-fluid mx-auto d-block rounded shadow-sm"
                             alt="profile photo" />
                     </figure>
 
-                    <section class="text-secondary">
+                    <section class="text-secondary ">
                         <p class="">Hi, I am Esther Min, an aspiring web developer!</p>
 
                         <p>I am currently enrolled in the UPenn LPS Coding Bootcamp and expecting to graduate in August
@@ -79,48 +83,82 @@
                         <p>Check out my portfolio to see what I've applied so far, and stay tuned for more neat projects
                             that I'll be building in the coming weeks!</p>
                     </section>
+                    <!-- </div> -->
                 </div>
             </div>
-            
-        </main>
-        
-    </div>
-    <div id="push"></div>
+
+        </div>
+
+    </main>
+
 
     <!-- End About Content -->
 
-    
+
     <!-- Empty filler to push footer down -->
-    <div class="row">
+    <!-- <div class="row">
         <div class="col p-5"></div>
-    </div>
+    </div> -->
 
 
     <!-- Start Footer -->
-    <footer class="p-5 bg-secondary">
-            
-            <div class="row justify-content-center ">
-                <div class="nav text-center">
+
+    <!-- DON'T FORGET ===
+        Remove inline CSS for footer -->
+    <!-- <footer class="p-5 position-absolute bg-secondary" style="bottom:0; width:100%;">
+
+        <div class="row justify-content-center ">
+            <div class="nav text-center">
+
+                <div class="col">
+                    <a class="nav-item nav-link px-5 text-white-50" href="mailto:estherjmin@gmail.com">
+                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><br>
+                        Email</a>
+                </div>
+                <div class="col">
+                    <a class="nav-item nav-link px-5 text-white-50" href="https://github.com/jungjungie"
+                        target="_blank">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i><br>
+                        GitHub</a>
+                </div>
+                <div class="col">
+                    <a class="nav-item nav-link px-5 text-white-50" href="https://www.linkedin.com/in/esther-j-min/"
+                        target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><br>
+                        LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+
+
+
+
+    <footer class="p-5 position-absolute bg-secondary" style="bottom:0; width:100%;">
+        <div class="container">
+
+            <div class="row justify-content-center  text-decoration-none text-center">
 
                     <div class="col">
-                        <a class="nav-item nav-link px-5 text-white-50" href="mailto:estherjmin@gmail.com">
+                        <a class="text-white-50 text-decoration-none" href="mailto:estherjmin@gmail.com">
                             <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><br>
                             Email</a>
                     </div>
                     <div class="col">
-                        <a class="nav-item nav-link px-5 text-white-50" href="https://github.com/jungjungie"
+                        <a class="text-white-50 text-decoration-none" href="https://github.com/jungjungie"
                             target="_blank">
                             <i class="fa fa-github fa-2x" aria-hidden="true"></i><br>
                             GitHub</a>
                     </div>
                     <div class="col">
-                        <a class="nav-item nav-link px-5 text-white-50" href="https://www.linkedin.com/in/esther-j-min/"
-                            target="_blank">
+                        <a class="text-white-50 text-decoration-none"
+                            href="https://www.linkedin.com/in/esther-j-min/" target="_blank">
                             <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><br>
                             LinkedIn</a>
                     </div>
-                </div>
             </div>
+        </div>
     </footer>
 
     <!-- End Footer -->
