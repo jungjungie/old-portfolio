@@ -24,7 +24,7 @@
 
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-info shadow-sm">
-            <div class="container">
+            <section class="container">
 
                 <a class="navbar-brand mb-0 h1" href="index.html">Esther Min</a>
 
@@ -33,64 +33,57 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-end" id="collapseditemslist">
+                <section class="collapse navbar-collapse justify-content-end" id="collapseditemslist">
 
-                    <div class="navbar-nav d-flex align-items-center" role="navigation">
-                        <a class="nav-item nav-link active px-4" href="index.html">About</a> |
-                        <a class="nav-item nav-link px-4" href="portfolio.html">Portfolio</a> |
-                        <a class="nav-item nav-link pl-4" href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </div>
+                    <section class="navbar-nav d-flex align-items-center" role="navigation">
+                        <a class="nav-item nav-link active px-4" href="index.html">About</a> <span class="d-none d-md-block">|</span>
+                        <a class="nav-item nav-link px-4" href="portfolio.html">Portfolio</a><span class="d-none d-md-block">|</span>
+                        <a class="nav-item nav-link pl-md-4" href="contact.html">Contact</a>
+                    </section>
+                </section>
+            </section>
         </nav>
         <!-- End Navbar -->
     </header>
     <!-- End Header -->
 
     <!-- Start About Content -->
-    <main class="p-sm-5">
+    <main class="p-sm-5 text-secondary">
 
-        <div class="container-sm mt-5 p-3 bg-white">
+        <section class="container-sm mt-5 p-3 bg-white">
 
             <section class="row my-4">
+
                 <section class="col">
-                    <h1 class="text-secondary align-items-center"><span class="text-info display-4">|</span> About Me
+                    <h1 class="align-items-center"><span class="text-info display-4">|</span> About Me
                     </h1>
+                </section>
+
+            </section>
+
+            <section class="row">
+
+                <section class="col pl-4">
+                            <figure class="text-center m-0">
+                                <img src="https://via.placeholder.com/200"
+                                    class="image-fluid mr-md-4 rounded shadow-sm float-md-left " alt="profile photo" />
+                            </figure>
+
+                            <p>Hi, I am Esther Min, an aspiring web developer!</p>
+
+                            <p>I am currently enrolled in the UPenn LPS Coding Bootcamp and expecting to graduate in August 2020. The below entails the languages and skills I've learned:</p>
+
+                            <ul>
+                                <li>Command Line</li>
+                                <li>HTML (including Semantics)</li>
+                                <li>CSS and Bootstrap</li>
+                            </ul>
+
+                            <p>Check out my portfolio to see what I've applied so far, and stay tuned for more neat projects that I'll be building in the coming weeks!</p>
                 </section>
             </section>
 
-            <div class="row">
-                <div class="col d-sm-flex ">
-                    <!-- <div class="text-wrap"> -->
-
-                    
-
-                    <section class="text-secondary ">
-
-                        <figure class="mr-sm-4">
-                            <img src="images/profilesnap.png" class="image-fluid mr-4 d-block rounded shadow-sm float-left"
-                                alt="profile photo" />
-                        </figure>
-                        
-                        <p class="">Hi, I am Esther Min, an aspiring web developer!</p>
-
-                        <p>I am currently enrolled in the UPenn LPS Coding Bootcamp and expecting to graduate in August
-                            2020. The below entails the languages and skills I've learned:</p>
-
-                        <ul>
-                            <li>Command Line</li>
-                            <li>HTML (including Semantics)</li>
-                            <li>CSS and Bootstrap</li>
-                        </ul>
-
-                        <p>Check out my portfolio to see what I've applied so far, and stay tuned for more neat projects
-                            that I'll be building in the coming weeks!</p>
-                    </section>
-                    <!-- </div> -->
-                </div>
-            </div>
-
-        </div>
+        </section>
 
     </main>
 
@@ -98,28 +91,27 @@
     <!-- End About Content -->
 
     <!-- Start Footer -->
-    <footer class="footer p-5 mt-auto bg-secondary" style="display:block">
+    <footer class="footer p-5 mt-auto bg-secondary">
         <div class="container">
 
             <div class="row justify-content-center  text-decoration-none text-center">
 
-                    <div class="col">
-                        <a class="text-white-50 text-decoration-none" href="mailto:estherjmin@gmail.com">
-                            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><br>
-                            Email</a>
-                    </div>
-                    <div class="col">
-                        <a class="text-white-50 text-decoration-none" href="https://github.com/jungjungie"
-                            target="_blank">
-                            <i class="fa fa-github fa-2x" aria-hidden="true"></i><br>
-                            GitHub</a>
-                    </div>
-                    <div class="col">
-                        <a class="text-white-50 text-decoration-none"
-                            href="https://www.linkedin.com/in/esther-j-min/" target="_blank">
-                            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><br>
-                            LinkedIn</a>
-                    </div>
+                <div class="col">
+                    <a class="text-white-50 text-decoration-none" href="mailto:estherjmin@gmail.com">
+                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><br>
+                        Email</a>
+                </div>
+                <div class="col">
+                    <a class="text-white-50 text-decoration-none" href="https://github.com/jungjungie" target="_blank">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i><br>
+                        GitHub</a>
+                </div>
+                <div class="col">
+                    <a class="text-white-50 text-decoration-none" href="https://www.linkedin.com/in/esther-j-min/"
+                        target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><br>
+                        LinkedIn</a>
+                </div>
             </div>
         </div>
     </footer>
