@@ -20,7 +20,14 @@ h1 #title-pipe {
     color: #8fb1b3;
 }
 
+button {
+    background: #8fb1b3 !important;
+    border: #8fb1b3 !important;
+}
 
+button:hover {
+    background: #709B9D !important;
+}
 
 footer {
     background-image: linear-gradient(#8fb1b3, #8fb1b3);
