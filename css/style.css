@@ -1,12 +1,13 @@
 body {
-    background-color: #efeee7;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    color: #333333;
-    margin: 0;
-    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1540845692348-b9d2bc813a63?ixlib=rb-1.2.1&auto=format&fit=crop&w=1410&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-header {
+/* main {
+    opacity: 0.9; */
+}
+/* header {
     background-color: #333333;
 }
 
@@ -45,4 +46,4 @@ h2 {
 
 a {
     color: #d21034;
-}
+} */
