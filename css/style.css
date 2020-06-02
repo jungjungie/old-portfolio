@@ -8,49 +8,14 @@ nav {
     background-image: linear-gradient(#f8bfee, #c19fc3);
 }
 
+a:hover {
+    color: white !important;
+}
+
+h1 #title-pipe {
+    color: #8fb1b3;
+}
+
 footer {
     background-image: linear-gradient(#8fb1b3, #8fb1b3);
 }
-/* main {
-    opacity: 0.9; */
-}
-/* header {
-    background-color: #333333;
-}
-
-h1 {
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    padding: 20px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-.container {
-    width: 1024px;
-    margin: 0 auto;
-}
-
-#main-bio, #contact-info, #bio-image {
-    float: left;
-}
-
-#bio-image {
-    width: 200px;
-}
-
-#main-bio {
-    width: 70%;
-}
-
-#contact-info {
-    width: 30%;
-    line-height: 1.5;
-}
-
-a {
-    color: #d21034;
-} */
