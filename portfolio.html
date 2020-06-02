@@ -13,60 +13,65 @@
     <!-- Link to Fontawesome icons -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="css/style.css" type="text/css" /> -->
+    <!-- Link to my CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body class="bg-light h-100 d-flex flex-column">
+
     <!-- Start Header -->
-    <header class="">
+    <header>
 
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-info shadow-sm">
-            <div class="container">
+            <section class="container">
 
-                <a class="navbar-brand mb-0" href="index.html">Esther Min</a>
+                <a class="navbar-brand h1 mb-0" href="index.html">Esther Min</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseditemslist"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-end" id="collapseditemslist">
+                <section class="collapse navbar-collapse justify-content-end" id="collapseditemslist">
 
-                    <div class="navbar-nav d-flex align-items-center" role="navigation">
-                        <a class="nav-item nav-link px-4" href="index.html">About</a> |
-                        <a class="nav-item nav-link active px-4" href="portfolio.html">Portfolio</a> |
+                    <section class="navbar-nav d-flex " role="navigation">
+                        <a class="nav-item nav-link px-4" href="index.html">About</a>
+                        <a class="nav-item nav-link active px-4" href="portfolio.html">Portfolio</a>
                         <a class="nav-item nav-link pl-4" href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </div>
+                    </section>
+                </section>
+
+            </section>
         </nav>
         <!-- End Navbar -->
     </header>
     <!-- End Header -->
 
     <!-- Start Portfolio Content -->
-    <div class="p-sm-5">
+    <main class="p-sm-5 text-secondary">
 
-        <main class="container-sm mt-5 p-3 bg-white">
+        <section class="container-sm mt-5 p-3 bg-white shadow">
 
             <section class="row my-4">
                 <section class="col">
-                    <h1 class="text-secondary align-items-center"><span class="text-info display-4">|</span> Portfolio
+                    <h1 class="align-items-center"><span class="display-4" id="title-pipe">|</span> Portfolio
                     </h1>
                 </section>
             </section>
 
-            <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 text-center text-secondary">
+            <section class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 text-center">
 
                 <!-- Project: Code Refactor -->
-                <div class="col mb-5">
-                    <div class="card h-100 shadow-sm">
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
                         <a class="list-group-item-action" href="https://github.com/jungjungie/Code-Refactor"
                             target="_blank">
-                            <img src="images/code-refactor.jpg" class="card-img-top" alt="code refactor snapshot">
+                            <figure class="m-0">
+                                <img src="images/code-refactor.jpg" class="card-img-top" alt="code refactor snapshot">
+                            </figure>
                         </a>
-                        <div class="card-body">
+                        <section class="card-body">
                             <a class="list-group-item-action" href="https://github.com/jungjungie/Code-Refactor"
                                 target="_blank">
                                 <h5 class="card-title">Code Refactor</h5>
@@ -74,114 +79,118 @@
                             <p class="card-text text-muted form-control-sm">HTML & CSS<br>
                                 <small class="text-muted">May 2020</small>
                             </p>
-                        </div>
-                    </div>
-                </div>
+                        </section>
+                    </section>
+                </section>
 
                 <!-- Project: Name -->
-                <div class="col mb-5">
-                    <div class="card h-100 shadow-sm">
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
                         <a class="list-group-item-action" href="#" target="_blank">
-                            <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
                         </a>
-                        <div class="card-body">
+                        <section class="card-body">
                             <a class="list-group-item-action" href="#" target="_blank">
                                 <h5 class="card-title">Project Name</h5>
                             </a>
                             <p class="card-text text-muted form-control-sm">Applications used<br>
                                 <small class="text-muted">Month & Year</small>
                             </p>
-                        </div>
-                    </div>
-                </div>
+                        </section>
+                    </section>
+                </section>
 
                 <!-- Project: Name -->
-                <div class="col mb-5">
-                    <div class="card h-100 shadow-sm">
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
                         <a class="list-group-item-action" href="#" target="_blank">
-                            <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
                         </a>
-                        <div class="card-body">
+                        <section class="card-body">
                             <a class="list-group-item-action" href="#" target="_blank">
                                 <h5 class="card-title">Project Name</h5>
                             </a>
                             <p class="card-text text-muted form-control-sm">Applications used<br>
                                 <small class="text-muted">Month & Year</small>
                             </p>
-                        </div>
-                    </div>
-                </div>
+                        </section>
+                    </section>
+                </section>
 
                 <!-- Project: Name -->
-                <div class="col mb-5">
-                    <div class="card h-100 shadow-sm">
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
                         <a class="list-group-item-action" href="#" target="_blank">
-                            <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
                         </a>
-                        <div class="card-body">
+                        <section class="card-body">
                             <a class="list-group-item-action" href="#" target="_blank">
                                 <h5 class="card-title">Project Name</h5>
                             </a>
                             <p class="card-text text-muted form-control-sm">Applications used<br>
                                 <small class="text-muted">Month & Year</small>
                             </p>
-                        </div>
-                    </div>
-                </div>
+                        </section>
+                    </section>
+                </section>
 
                 <!-- Project: Name -->
-                <div class="col mb-5">
-                    <div class="card h-100 shadow-sm">
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
                         <a class="list-group-item-action" href="#" target="_blank">
-                            <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
                         </a>
-                        <div class="card-body">
+                        <section class="card-body">
                             <a class="list-group-item-action" href="#" target="_blank">
                                 <h5 class="card-title">Project Name</h5>
                             </a>
                             <p class="card-text text-muted form-control-sm">Applications used<br>
                                 <small class="text-muted">Month & Year</small>
                             </p>
-                        </div>
-                    </div>
-                </div>
+                        </section>
+                    </section>
+                </section>
 
-            </div>
-        </main>
-    </div>
-    <!-- End About Content -->
-
+            </section>
+        </section>
+    </main>
+    <!-- End Portfolio Content -->
 
     <!-- Start Footer -->
-    <footer class="footer p-5 mt-auto bg-secondary">
-        <div class="container">
+    <footer class="p-5 mt-auto bg-secondary">
+        <section class="container">
 
-            <div class="row justify-content-center  text-decoration-none text-center">
+            <section class="row text-center">
+                <section class="col">
+                    <a class="text-white-50 text-decoration-none" href="mailto:estherjmin@gmail.com">
+                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><br>
+                        Email</a>
+                </section>
 
-                    <div class="col">
-                        <a class="text-white-50 text-decoration-none" href="mailto:estherjmin@gmail.com">
-                            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><br>
-                            Email</a>
-                    </div>
-                    <div class="col">
-                        <a class="text-white-50 text-decoration-none" href="https://github.com/jungjungie"
-                            target="_blank">
-                            <i class="fa fa-github fa-2x" aria-hidden="true"></i><br>
-                            GitHub</a>
-                    </div>
-                    <div class="col">
-                        <a class="text-white-50 text-decoration-none"
-                            href="https://www.linkedin.com/in/esther-j-min/" target="_blank">
-                            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><br>
-                            LinkedIn</a>
-                    </div>
-            </div>
-        </div>
+                <section class="col">
+                    <a class="text-white-50 text-decoration-none" href="https://github.com/jungjungie" target="_blank">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i><br>
+                        GitHub</a>
+                </section>
+
+                <section class="col">
+                    <a class="text-white-50 text-decoration-none" href="https://www.linkedin.com/in/esther-j-min/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><br>
+                        LinkedIn</a>
+                </section>
+            </section>
+
+        </section>
     </footer>
     <!-- End Footer -->
-
-
-
 
     <!-- Link to Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
