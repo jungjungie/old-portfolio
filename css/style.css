@@ -4,6 +4,9 @@ body {
     background-repeat: no-repeat;
 }
 
+nav {
+    background-image: linear-gradient(#f8bfee, #c19fc3);
+}
 /* main {
     opacity: 0.9; */
 }
