@@ -1,40 +1,33 @@
 body {
-    background-image: url("../images/evie-s-vz3IQy0LOaA-unsplash.jpg");
+    background-image: url("../images/chuttersnap-hqVGQ4-D0NI-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* https://images.unsplash.com/photo-1540845692348-b9d2bc813a63?ixlib=rb-1.2.1&auto=format&fit=crop&w=1410&q=80 */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#myname {
+    font-family: 'Gudea', sans-serif;
+    font-size: 30px;
+} 
+
+h1 {
+    font-family: 'Poppins', sans-serif;
 }
 
-nav {
-    background-image: linear-gradient(#f8bfee, #c19fc3);
-}
-
-nav a:hover, footer a:hover {
-    color: white !important;
-}
-
-main a:hover {
-    color: #8fb1b3 !important;
-}
-
-main::after {
-    opacity: 0.8;
+a:hover {
+    color: #946174 !important;
 }
 
 h1 #title-pipe {
-    color: #8fb1b3;
+    color: #946174;
 }
 
 button {
-    background: #8fb1b3 !important;
-    border: #8fb1b3 !important;
+    background: #946174 !important;
+    border: #946174 !important;
 }
 
 button:hover {
-    background: #709B9D !important;
-}
-
-footer {
-    background-image: linear-gradient(#8fb1b3, #8fb1b3);
+    background: #ab6c84 !important;
 }
