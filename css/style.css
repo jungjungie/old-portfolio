@@ -2,7 +2,7 @@ body {
     background-image: url("../images/chuttersnap-hqVGQ4-D0NI-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
