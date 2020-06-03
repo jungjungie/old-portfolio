@@ -29,3 +29,7 @@ button {
 button:hover {
     background: #ab6c84 !important;
 }
+
+button:focus {
+    outline: none;
+}
