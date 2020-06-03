@@ -26,6 +26,7 @@ h1 #title-pipe {
 button {
     background: #946174 !important;
     border: #946174 !important;
+    font-weight: 300 !important;
 }
 
 button:hover {
