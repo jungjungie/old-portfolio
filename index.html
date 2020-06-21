@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white shadow-sm border-bottom">
             <section class="container">
 
-                <a id="myname" class="navbar-brand h1 mb-0" href="index.html">ESTHER MIN</a>
+                <a id="myname" class="navbar-brand h1 mb-0" href="#aboutnav">ESTHER MIN</a>
 
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapseditemslist"
                     aria-controls="collapseditemslist" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +38,9 @@
                 <section class="collapse navbar-collapse justify-content-end" id="collapseditemslist">
 
                     <section class="navbar-nav d-flex font-weight-bold" role="navigation">
-                        <a class="nav-item nav-link active px-4" href="index.html">About</a>
-                        <a class="nav-item nav-link px-4" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link pl-4" href="contact.html">Contact</a>
+                        <a class="nav-item nav-link active px-4" href="#aboutnav">About</a>
+                        <a class="nav-item nav-link px-4" href="#portnav">Portfolio</a>
+                        <a class="nav-item nav-link pl-4" href="#contactnav">Contact</a>
                     </section>
                 </section>
 
@@ -50,27 +50,24 @@
     </header>
     <!-- End Header -->
 
-
     <!-- Intro -->
-    <div class="container d-flex h-100 align-items-center">
+    <!-- <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="">Hello! I'm Esther Min.</h1>
           <h2 class="">I'm a full-stack web developer.</h2>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Start About Content -->
-    <!-- <main class="p-sm-5 mt-5 text-dark">
+    <main class="p-sm-5 mt-5 text-dark">
 
-        <section class="container-sm mt-5 p-3 bg-white shadow">
-
+        <!-- About Me -->
+        <section id="aboutnav" class="container-sm mt-5 p-3 bg-white shadow">
             <section class="row my-4">
                 <section class="col">
                     <h1 class="align-items-center"><span class="display-5" id="title-pipe">|</span> About Me
                     </h1>
                 </section>
             </section>
-
             <section class="row text-secondary">
                 <section class="col pl-4">
                     <figure class="text-center m-0">
@@ -87,11 +84,146 @@
                     <p>Take note that this site is still a work in progress as I go through the boot camp, and I’ll continue to update it in the coming weeks.</p>
                 </section>
             </section>
-
         </section>
 
-    </main> -->
-    <!-- End About Content -->
+        <!-- Portfolio -->
+        <section id="portnav" class="container-sm mt-5 p-3 bg-white shadow">
+
+            <section class="row my-4 text-dark">
+                <section class="col">
+                    <h1 class="align-items-center"><span class="display-5" id="title-pipe">|</span> Portfolio
+                    </h1>
+                </section>
+            </section>
+
+            <section class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 text-center">
+
+                <!-- Project: Password Generator -->
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
+                        <a class="list-group-item-action" href="https://jungjungie.github.io/Password-Generator/"
+                            target="_blank">
+                            <figure class="m-0">
+                                <img src="images/password-generator-snap.png" class="card-img-top" alt="password generator snapshot">
+                            </figure>
+                        </a>
+                        <section class="card-body">
+                            <a class="list-group-item-action" href="https://jungjungie.github.io/Password-Generator/"
+                                target="_blank">
+                                <h5 class="card-title">Password Generator</h5>
+                            </a>
+                            <p class="card-text text-muted form-control-sm">JavaScript<br>
+                                <small class="text-muted">June 2020</small>
+                            </p>
+                        </section>
+                    </section>
+                </section>
+
+                <!-- Project: Name -->
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
+                        <a class="list-group-item-action" href="#" target="_blank">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
+                        </a>
+                        <section class="card-body">
+                            <a class="list-group-item-action" href="#" target="_blank">
+                                <h5 class="card-title">Project Name</h5>
+                            </a>
+                            <p class="card-text text-muted form-control-sm">Applications used<br>
+                                <small class="text-muted">Month & Year</small>
+                            </p>
+                        </section>
+                    </section>
+                </section>
+
+                <!-- Project: Name -->
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
+                        <a class="list-group-item-action" href="#" target="_blank">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
+                        </a>
+                        <section class="card-body">
+                            <a class="list-group-item-action" href="#" target="_blank">
+                                <h5 class="card-title">Project Name</h5>
+                            </a>
+                            <p class="card-text text-muted form-control-sm">Applications used<br>
+                                <small class="text-muted">Month & Year</small>
+                            </p>
+                        </section>
+                    </section>
+                </section>
+
+                <!-- Project: Name -->
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
+                        <a class="list-group-item-action" href="#" target="_blank">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
+                        </a>
+                        <section class="card-body">
+                            <a class="list-group-item-action" href="#" target="_blank">
+                                <h5 class="card-title">Project Name</h5>
+                            </a>
+                            <p class="card-text text-muted form-control-sm">Applications used<br>
+                                <small class="text-muted">Month & Year</small>
+                            </p>
+                        </section>
+                    </section>
+                </section>
+
+                <!-- Project: Name -->
+                <section class="col mb-5">
+                    <section class="card h-100 shadow-sm">
+                        <a class="list-group-item-action" href="#" target="_blank">
+                            <figure class="m-0">
+                                <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                            </figure>
+                        </a>
+                        <section class="card-body">
+                            <a class="list-group-item-action" href="#" target="_blank">
+                                <h5 class="card-title">Project Name</h5>
+                            </a>
+                            <p class="card-text text-muted form-control-sm">Applications used<br>
+                                <small class="text-muted">Month & Year</small>
+                            </p>
+                        </section>
+                    </section>
+                </section>
+
+            </section>
+        </section>
+
+        <!-- Contact -->
+        <section id="contactnav" class="container-sm mt-5 p-3 bg-white shadow">
+            <section class="row text-dark my-4">
+                <section class="col">
+                    <h1 class="align-items-center"><span class="display-5" id="title-pipe">|</span> Let's Connect!
+                    </h1>
+                </section>
+            </section>
+            <form class="mx-4 pb-4">
+                <section class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" placeholder="Enter name" required>
+                </section>
+                <section class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email address" required>
+                </section>
+                <section class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Enter message" required></textarea>
+                  </section>
+                <button type="submit" class="btn btn-info shadow-sm">Submit</button>
+              </form>
+        </section>
+
+    </main>
 
     <!-- Start Footer -->
     <footer class="p-4 mt-auto bg-white border-top">
