@@ -16,7 +16,7 @@ h1 {
     font-size: 38px;
 }
 
-h1 #title-pipe1, a:hover  {
+h1 #title-pipe1, .pink-text, a:hover  {
     color: #946174 !important;
     text-decoration: none;
 }
@@ -32,6 +32,11 @@ h1 #title-pipe2 {
 #portnav {
     background: #946174;
     width: 100%;
+}
+
+.proj-card {
+    border-bottom: 1px solid #946174;
+    border-left: none;
 }
 
 button {
