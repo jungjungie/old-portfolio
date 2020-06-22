@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/chuttersnap-hqVGQ4-D0NI-unsplash.jpg");
     background-position: bottom;
-    background-size: cover;
+    background-size: fixed;
     background-repeat: repeat;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -10,6 +10,16 @@ body {
     font-family: 'Gudea', sans-serif;
     font-size: 30px;
 } 
+
+#intro {
+    height: 100vh;
+    /* background: blue; */
+}
+
+#intro-name {
+    color: #946174; 
+    font-size: 4.3rem;
+}
 
 h1 {
     font-family: 'Poppins', sans-serif;
