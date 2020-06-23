@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/chuttersnap-hqVGQ4-D0NI-unsplash.jpg");
     background-position: top;
-    background-size: fixed;
+    background-size: cover;
     background-repeat: repeat;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -14,6 +14,19 @@ body {
 #intro {
     height: 100vh;
     /* background: blue; */
+}
+
+#opaqueoverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 50vw;
+    background: white;
+    opacity: 0.7;
+    z-index: -1;
+    border-radius: 10px;
 }
 
 #intro-name {
@@ -65,4 +78,11 @@ button:hover {
 
 button:focus {
     outline: none;
+}
+
+@media (max-width: 500px) {
+    #opaqueoverlay {
+        width: 90vw;
+        opacity: 0.5;
+    }
 }
